@@ -12,7 +12,7 @@ body{
   align-items: center;
 }
 input[type='text'] {
-  width: 50vw;
+  width: 65%;
   border: solid rgb(152, 145, 145) 0.2px ;
   background-color: rgba(128, 128, 128, 0.413);
   border-top-left-radius: 5px;
@@ -20,7 +20,7 @@ input[type='text'] {
   padding: 6px 5px;
 }
 .btn{
-  width: 15vw;
+  width: 30%;
   border: none;
   background-color: rgb(67, 114, 180);
   color: white;
@@ -36,6 +36,7 @@ input[type='text'] {
   padding: 10px;
   justify-content: center;
   flex-direction: column;
+  margin-top: 10%;
 }
 h3{
 
@@ -50,4 +51,16 @@ h3{
   margin: 0;
   padding: 0;
   margin-left: auto;
+}
+
+@media only screen and (min-width: 900px) {
+  .center-div{
+    width: 30vw;
+  }
+  input[type='text']{
+    width: 70%;
+  }
+  .btn{
+    width: 27%;
+  }
 }
