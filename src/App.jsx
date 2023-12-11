@@ -14,7 +14,6 @@ const getLocalStorage=()=>{
   return list;
 }
 
-
 const setLocalStorage=(items)=>{
   localStorage.setItem('list',JSON.stringify(items))
 }
